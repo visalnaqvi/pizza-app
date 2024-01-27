@@ -6,7 +6,7 @@ export const AppContextProvider = ({children})=>{
     const [pizzas, setPizzas] = useState([
         // { id: 2, stage: 0, time: 0 , size:"medium" , totalTime:0}
     ]);
-    
+
     const [isFormVisible , setisFormVisible] =  useState(false);
     
     const timeFromSec = (seconds)=>{
